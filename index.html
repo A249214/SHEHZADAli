@@ -10,10 +10,49 @@
 </head>
 <body>
 
+  <!-- ===== PAGE LOADER ===== -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-logo">
+      <svg width="56" height="56" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="44" height="44" rx="12" fill="url(#loaderGrad)"/>
+        <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="20" fill="#fff">S</text>
+        <defs>
+          <linearGradient id="loaderGrad" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#a855f7"/>
+            <stop offset="100%" stop-color="#7c3aed"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a href="https://wa.me/923189440776" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
   <!-- ===== NAVBAR ===== -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a href="#" class="logo">Shehzad<span>.</span></a>
+      <a href="#" class="logo">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+          <rect width="44" height="44" rx="12" fill="url(#logoGrad)"/>
+          <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="20" fill="#fff">S</text>
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#a855f7"/>
+              <stop offset="100%" stop-color="#7c3aed"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">Shehzad<span class="logo-dot">.</span></span>
+      </a>
       <nav class="nav-links" id="navLinks">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -70,6 +109,11 @@
     </div>
     <div class="hero-shape shape1"></div>
     <div class="hero-shape shape2"></div>
+    <!-- floating dot grid shapes like original -->
+    <div class="dot-grid dot-grid-1"></div>
+    <div class="dot-grid dot-grid-2"></div>
+    <div class="hero-ring ring1"></div>
+    <div class="hero-ring ring2"></div>
   </section>
 
   <!-- ===== ABOUT ===== -->
